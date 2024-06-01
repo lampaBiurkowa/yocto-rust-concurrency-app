@@ -1,0 +1,8 @@
+[package]
+name = "hello-world"
+version = "0.1.0"
+edition = "2021"
+repository = "https://github.com/lampaBiurkowa/yocto-rust-app-test.git"
+description = "based on Yocto Project Virtual Summit 2020 demo"
+
+[dependencies]
