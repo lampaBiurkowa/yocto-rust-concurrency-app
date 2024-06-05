@@ -1,5 +1,5 @@
 [package]
-name = "hello-world"
+name = "rust-concurrent-counter"
 version = "0.1.0"
 edition = "2021"
 repository = "https://github.com/lampaBiurkowa/yocto-rust-app-test.git"
