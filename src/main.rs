@@ -24,10 +24,8 @@ fn main() {
 
     for i in 0..num_threads {
         let counter = Arc::clone(&counter);
-
         let handle = thread::spawn(move || {
             let mut rng = rand::thread_rng();
-
             loop {
                 let sleep_duration = rng.gen_range(100..1000);
                 thread::sleep(Duration::from_millis(sleep_duration));
