@@ -6,3 +6,4 @@ repository = "https://github.com/lampaBiurkowa/yocto-rust-app-test.git"
 description = "based on Yocto Project Virtual Summit 2020 demo"
 
 [dependencies]
+rand = "0.8.5"
